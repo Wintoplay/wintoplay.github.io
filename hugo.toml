@@ -1,0 +1,31 @@
+baseURL = "https://Wintoplay.github.io/mysite/"
+title = "My Blog"
+theme = "PaperMod"
+
+languageCode = "en-us"
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
